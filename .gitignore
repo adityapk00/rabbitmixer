@@ -1,0 +1,8 @@
+ttt_data.csv
+.idea
+.ipynb_checkpoints
+saved_model
+web3j-*/
+solc/
+build/
+

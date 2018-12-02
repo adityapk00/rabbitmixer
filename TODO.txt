@@ -1,0 +1,18 @@
+Contract
+- Add nonce support and verification in the contract
+- Send eph_public in the transaction to the sender
+- Log the sent amount (encrypted) for the sender
+- Log the recieved amount (encrypted) for the reciever
+- Add support for transaction expiry
+
+JS Client
+1. HTML table view
+2. Sending dialog box
+
+Java Server
+- Send multiple TXs at once with many nonces
+- Send TX with specific gas price
+- Monitor sent TXs to make sure they confirm / increase gas price
+- Store token history by account in DB
+- Build TX manager to manage sent TXs, and make sure they confirm
+
